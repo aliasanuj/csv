@@ -1,5 +1,6 @@
-# #####append the data into ccsv files.
-# #####working code
+'''append the data into csv files.
+working code'''
+
 # import csv
 # # open the CSV file in append mode
 # with open('mockData.csv', 'a', newline='') as file:
@@ -10,8 +11,9 @@
 #     writer.writerow(['John', 'Doe', '25'])
 
 
-#####used to append data in xlsx with different pre existing sheets and also it will create new sheet
-# ### working code
+'''used to append data in xlsx with different pre existing sheets and also it will create new sheet
+working code'''
+
 # from openpyxl import load_workbook
 # # load the existing workbook
 # workbook = load_workbook('mockData.xlsx')
@@ -31,8 +33,9 @@ inserting data in the middle of a CSV file by creating a new
 CSV file and copying the data from the original CSV file to
 the new file, with the new data inserted at the desired location.
 Here's an example of how to do it:"""
-"""this is Chat GPT suggestion and code"""
-###working code
+"""this is Chat GPT suggestion and code
+working code"""
+
 # import csv
 # # open the original CSV file and the new CSV file
 # with open('mockData.csv', 'r') as infile, open('new_mockData.csv', 'w', newline='') as outfile:
@@ -49,10 +52,6 @@ Here's an example of how to do it:"""
 #         if i == 2:
 #             new_row = ['John', 'Doe', '25']
 #             writer.writerow(new_row)
-
-
-
-
 
 
 

@@ -1,5 +1,6 @@
-#to create a new csv file using python
-# working
+'''to create a new csv file using python
+working'''
+
 # import csv
 # # Define the headers
 # headers = ['Name', 'Age', 'Country']
@@ -24,21 +25,23 @@
 
 
 
-#checking for practise
-# working
-# creating a new file with new name along with dummy data
-import csv
-header = ["qqq","qqq","qqq"]
-data = [[" " ,"ddd"," "],["qq"],["qq"," ","rr"]]
-with open("filename.csv", mode='w') as file:
-    objectFile = csv.writer(file)
-    objectFile.writerow(header)
-    objectFile.writerows(data)
+'''checking for practise
+working
+creating a new csv file with new name along with dummy data'''
+
+# import csv
+# header = ["qqq","qqq","qqq"]
+# data = [[" " ,"ddd"," "],["qq"],["qq"," ","rr"]]
+# with open("filename.csv", mode='w') as file:
+#     objectFile = csv.writer(file)
+#     objectFile.writerow(header)
+#     objectFile.writerows(data)
 
 
 
-# code for creating multiple sheets in xlsx using pyython
-# working
+'''code for creating multiple sheets in xlsx using pyython
+working'''
+
 # import pandas as pd
 # import re
 # df1 = pd.DataFrame({'Data': ['arter', 'berger', 'cretre', 'd45yt45']})
@@ -54,7 +57,8 @@ with open("filename.csv", mode='w') as file:
 
 
 
-# clean code for creating multiple sheets in xlsx using pyython
+'''clean code for creating multiple sheets in xlsx using pyython'''
+
 # import the python pandas package
 # import pandas as pd
 # import re
