@@ -27,13 +27,13 @@
 #checking for practise
 # working
 # creating a new file with new name along with dummy data
-# import csv
-# header = ["qqq","qqq","qqq"]
-# data = [[" " ,"ddd"," "],["qq"],["qq"," ","rr"]]
-# with open("filename.csv", mode='w') as file:
-#     objectFile = csv.writer(file)
-#     objectFile.writerow(header)
-#     objectFile.writerows(data)
+import csv
+header = ["qqq","qqq","qqq"]
+data = [[" " ,"ddd"," "],["qq"],["qq"," ","rr"]]
+with open("filename.csv", mode='w') as file:
+    objectFile = csv.writer(file)
+    objectFile.writerow(header)
+    objectFile.writerows(data)
 
 
 
