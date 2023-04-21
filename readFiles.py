@@ -31,20 +31,20 @@
 # ##read the csv files with python using pandas library with sheets data as well
 # this is working code
 import pandas as pd
-# read the Excel file
-# xlsx = pd.read_excel('mockData.xlsx', sheet_name=None)
-# print("xlsx is",xlsx)
-# print("xlsx type is",type(xlsx)) # xlsx type is <class 'dict'>
-# print("keys is ",xlsx.keys()) ## display the sheet names
-# print("values is ",xlsx.values()) # will give bith tables data
-# print(type(xlsx.keys())) ###<class 'dict_keys'>
-# print(type(xlsx.values())) ###<class 'dict_values'>
-# display the data in each sheet
-# for sheet_name, sheet_data in xlsx.items():
-#     print(f"\n{sheet_name}\n{'this can be use as logs' * 3}")
-#     print(sheet_data.head(5))
-#     print(type(sheet_data.head()))
-#
+### read the Excel file
+xlsx = pd.read_excel('mockData.xlsx', sheet_name=None)
+print("xlsx is",xlsx)
+print("xlsx type is",type(xlsx)) # xlsx type is <class 'dict'>
+print("keys is ",xlsx.keys()) ## display the sheet names
+print("values is ",xlsx.values()) # will give bith tables data
+print(type(xlsx.keys())) ###<class 'dict_keys'>
+print(type(xlsx.values())) ###<class 'dict_values'>
+### display the data in each sheet
+for sheet_name, sheet_data in xlsx.items():
+    print(f"\n{sheet_name}\n{'this can be use as logs' * 3}")
+    print(sheet_data.head(5))
+    print(type(sheet_data.head()))
+
 
 
 
