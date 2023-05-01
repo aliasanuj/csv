@@ -25,8 +25,7 @@ working'''
 
 
 
-'''checking for practise
-working
+'''checking for practise working
 creating a new csv file with new name along with dummy data'''
 
 # import csv
@@ -80,11 +79,10 @@ working'''
 # print(data_frame1)
 # print(data_frame2)
 # print(data_frame3)
-# # create a excel writer object
+# # create excel writer object
 # with pd.ExcelWriter(r"filename01.xlsx") as writer:
 #     # use to_excel function and specify the sheet_name and index
 #     # to store the dataframe in specified sheet
 #     data_frame1.to_excel(writer, sheet_name="Fruits", index=False)
 #     data_frame2.to_excel(writer, sheet_name="Vegetables", index=False)
 #     data_frame3.to_excel(writer, sheet_name="Baked Items", index=False)
-
